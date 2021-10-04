@@ -8,6 +8,7 @@
   "author": "nappa <masa.yanagawa721@gmail.com> (https://twitter.com/bebeji_nappa)",
   "license": "MIT",
   "devDependencies": {
+    "ts-loader": "^9.2.6",
     "typescript": "^4.4.3",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0",
