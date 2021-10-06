@@ -5,9 +5,10 @@
     "module": "ES2015",
     "jsx": "react",
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "ES2021",
       "DOM"
-    ]
+    ],
   }
 }
