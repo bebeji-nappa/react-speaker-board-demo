@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#2a2845, #030033);
+  color: #fff;
+}
+
+.Control {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin: 50px;
+  bottom: 0;
+}

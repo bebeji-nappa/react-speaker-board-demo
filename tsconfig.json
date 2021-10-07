@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "ES5",
+    "target": "ES2021",
     "module": "ES2015",
     "jsx": "react",
+    "strict": true,
+    "declaration": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "lib": [
       "ES2021",
       "DOM"
     ],
-  }
+  },
+  "files": [
+    "src/slideboard/base.tsx"
+  ]
 }
