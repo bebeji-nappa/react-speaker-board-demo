@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "development",
@@ -9,7 +10,7 @@ module.exports = {
     filename: "main.js"
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".json"]
+    extensions: [".ts", ".tsx", ".js", ".json", ".svg", ".png", ".jpg", ".jpeg"]
   },
   module: {
     rules: [
@@ -17,14 +18,32 @@ module.exports = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         use: "ts-loader"
-      }
+      },
+      {
+        test: /\.css?$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader"]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: 'images',
+            },
+          },
+        ],
+      },
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
       filename: 'index.html'
-    })
+    }),
+    new MiniCssExtractPlugin({
+      filename: "style.css",
+    }),
   ],
   devServer: {
     static: {
@@ -32,7 +51,7 @@ module.exports = {
     },
     compress: true,
     host: "localhost",
-    port: 8081,
+    port: 8080,
     headers: {
       "Access-Control-Allow-Origin": "*",
     },

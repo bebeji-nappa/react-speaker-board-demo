@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { ReactSpeakerBoard } from './slideboard'
+import { Slide } from './slide'
+import "./reset.css"
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <ReactSpeakerBoard slide={Slide} />,
   document.getElementById('root')
 );

@@ -1,0 +1,16 @@
+.Control {
+  align-self: flex-end;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.slide-button {
+  display: block;
+  width: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
