@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   entry: "./src/main.tsx",
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './docs'),
     filename: "main.js"
   },
   resolve: {

@@ -1,4 +1,4 @@
-# React Speaker Board
+# React Speaker Board Demo
 Easily create presentation board using React.
 
 ## Install
