@@ -3372,7 +3372,7 @@ fsevents@~2.3.2:
     mini-css-extract-plugin: ^2.4.1
     react: ^17.0.2
     react-dom: ^17.0.2
-    react-speaker-board: ^0.1.4
+    react-speaker-board: ^0.1.5
     sass-loader: ^12.1.0
     ts-loader: ^9.2.6
     typescript: ^4.4.3
@@ -3383,15 +3383,15 @@ fsevents@~2.3.2:
   languageName: unknown
   linkType: soft
 
-"react-speaker-board@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "react-speaker-board@npm:0.1.4"
+"react-speaker-board@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "react-speaker-board@npm:0.1.5"
   dependencies:
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: e972d23a5b83caab6bdd3b3d2e821b85362d183d6f2ea875d9d2e9d4611254d57aa56004d374fdfac02e172249996d1ace3cbdb7101836eb4097b3de96f7bdba
+  checksum: 38d674e938a671eca613a63a524211c8f0c1c69861aa7eb44034d0e5d8da93182cef40e5ec89c2e867d35a6adaf733f0be454b4b41f53de2672460223553f053
   languageName: node
   linkType: hard
 
