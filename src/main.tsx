@@ -5,6 +5,6 @@ import { Slide } from './Slide'
 import "./reset.css"
 
 ReactDOM.render(
-  <ReactSpeakerBoard slide={Slide} mode="inlineSlide" />,
+  <ReactSpeakerBoard slide={Slide} mode="slide" />,
   document.getElementById('root')
 );
