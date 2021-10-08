@@ -3207,9 +3207,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-speaker-board@workspace:.":
+"react-speaker-board-demo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-speaker-board@workspace:."
+  resolution: "react-speaker-board-demo@workspace:."
   dependencies:
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
@@ -3219,6 +3219,7 @@ fsevents@~2.3.2:
     mini-css-extract-plugin: ^2.4.1
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-speaker-board: ^0.1.3
     sass-loader: ^12.1.0
     ts-loader: ^9.2.6
     typescript: ^4.4.3
@@ -3228,6 +3229,18 @@ fsevents@~2.3.2:
     webpack-dev-server: ^4.3.0
   languageName: unknown
   linkType: soft
+
+"react-speaker-board@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "react-speaker-board@npm:0.1.3"
+  dependencies:
+    "@types/react": ^17.0.27
+    "@types/react-dom": ^17.0.9
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  checksum: dceb92764f7e894dd9909712b52f1f21064fcf279822bcd1ae148c4e0699ac2af8de83bd8e9511599cdc7d20c0c8fbf4dc3fa80de1956b41dac6682c0ec39026
+  languageName: node
+  linkType: hard
 
 "react@npm:^17.0.2":
   version: 17.0.2

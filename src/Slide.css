@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.code {
+  color: #fff;
+  background-color: #000042;
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+  font-size: 30px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.list {
+  margin: 10px 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: none;
+}
+
+.GitHub-text {
+  background-color: #121212;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+.GitHub {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}

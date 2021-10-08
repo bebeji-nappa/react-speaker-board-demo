@@ -1,0 +1,90 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/package/board.css ***!
+  \*************************************************************************/
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#2a2845, #030033);
+  color: #fff;
+}
+
+.board {
+  width: 85%;
+  height: 85%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Control {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin: 50px;
+  bottom: 0;
+}
+
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/package/Control.css ***!
+  \***************************************************************************/
+
+
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/package/MainTitle.css ***!
+  \*****************************************************************************/
+.MainTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 72px;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/package/SubText.css ***!
+  \***************************************************************************/
+.SubTitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/reset.css ***!
+  \*****************************************************************/
+body {
+  margin: 0;
+}
+
