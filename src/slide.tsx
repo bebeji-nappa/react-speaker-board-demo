@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainTitle, MainContent, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
+import { MainTitle, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
 import "./Slide.css"
 import GitHubLogo from "../images/github-logo.png"
 
@@ -8,11 +8,11 @@ const Subject = (
     <Layout layout="subject">
       <MainTitle textAlign="center">React Speaker Board</MainTitle>
       <Spacer />
-      <MainContent textAlign="center">
+      <Content align="center">
         <span style={{ textAlign: "center" }}>
           Easily create presentation board using React.
         </span>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -25,13 +25,13 @@ const Install = (
       <Spacer />
       <MainTitle textAlign="center">Install</MainTitle>
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">
           <code className="code">
           $ yarn add react-speaker-board
           </code>
         </Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -46,13 +46,13 @@ const Concept = (
       </MainTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center">
-        <MainContent textAlign="left" size="xlarge">
+      <Content align="center">
+        <Content align="left" size="xlarge">
           <li className="list">Easy to make</li>
           <li className="list">Easy to customize</li>
           <li className="list">Abundant theme colors</li>
-        </MainContent>
-      </MainContent>
+        </Content>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -77,9 +77,9 @@ const Default = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Default</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -94,9 +94,9 @@ const Sunset = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Sunset</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -111,9 +111,9 @@ const Malinka = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Malinka</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -128,9 +128,9 @@ const Moon = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Moon</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -145,9 +145,9 @@ const Darkblue = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Darkblue</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -162,9 +162,9 @@ const Green = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Green</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -179,9 +179,9 @@ const Sky = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Sky</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
@@ -196,9 +196,9 @@ const Dark = (
       </SectionTitle>
       <Spacer />
       <Spacer />
-      <MainContent textAlign="center" size="xxlarge">
+      <Content align="center" size="xxlarge">
         <Layout layout="subject">Dark</Layout>
-      </MainContent>
+      </Content>
     </Layout>
   </Theme>
 )
