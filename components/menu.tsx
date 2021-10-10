@@ -1,17 +1,24 @@
 import { NextPage } from 'next'
-import { useState, useEffect } from 'react';
-import { richmd } from 'richmd';
-import MdFile from "../pages/docs/ja/md/menu.md";
-
+import Link from 'next/link'
 const DocsMenu: NextPage = () => {
-  const [md, setMd] = useState<string>('');
-  useEffect(() => {
-    setMd(richmd(MdFile))
-  }, [])
 
   return (
     <div className="docs-menu">
-      <div dangerouslySetInnerHTML={{__html: md}}></div>
+      <Link href="/">
+        <a className="h4 docs-menu-title">React Speaker Board</a>
+      </Link>
+      <ul>
+        <li>
+          <Link href="/docs/ja/introduction">
+            <a className="h5 docs-menu-list">Introduction</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/docs/ja/components">
+            <a className="h5 docs-menu-list">Components</a>
+          </Link>
+        </li>
+      </ul>
     </div>
   )
 }
