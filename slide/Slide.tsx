@@ -1,12 +1,11 @@
-import React from 'react'
-import { MainTitle, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
-import Image from 'next/image';
+import { Title, Content, Spacer, Layout, Theme } from 'react-speaker-board'
+import Link from 'next/link'
 
 const Subject = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">React Speaker Board</MainTitle>
+        <Title textAlign="center">React Speaker Board</Title>
         <Spacer />
         <Content align="center">
           <span style={{ textAlign: "center" }}>
@@ -25,11 +24,11 @@ const Install = () => {
         <Spacer />
         <Spacer />
         <Spacer />
-        <MainTitle textAlign="center">Install</MainTitle>
+        <Title textAlign="center">Install</Title>
         <Spacer />
         <Content align="center" size="xxlarge">
           <Layout layout="subject">
-            <code className="code">
+            <code className="slide-code">
             $ yarn add react-speaker-board
             </code>
           </Layout>
@@ -45,16 +44,16 @@ const Concept = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <MainTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Concept
-        </MainTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center">
           <Content align="left" size="xlarge">
-            <li className="list">Easy to make</li>
-            <li className="list">Easy to customize</li>
-            <li className="list">Abundant theme colors</li>
+            <li className="slide-list">Easy to make</li>
+            <li className="slide-list">Easy to customize</li>
+            <li className="slide-list">Abundant theme colors</li>
           </Content>
         </Content>
       </Layout>
@@ -66,9 +65,9 @@ const Themes = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">
+        <Title textAlign="center">
           Themes
-        </MainTitle>
+        </Title>
       </Layout>
     </Theme>
   )
@@ -80,9 +79,9 @@ const Default = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -99,9 +98,9 @@ const Sunset = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -118,9 +117,9 @@ const Malinka = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -137,9 +136,9 @@ const Moon = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -156,9 +155,9 @@ const Darkblue = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -175,9 +174,9 @@ const Green = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -194,9 +193,9 @@ const Sky = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -213,9 +212,9 @@ const Dark = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <SectionTitle textAlign="center">
+        <Title textAlign="center" size="xlarge">
           Themes
-        </SectionTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center" size="xxlarge">
@@ -230,18 +229,15 @@ const Documentation = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">
+        <Title textAlign="center">
           Let's use React Speaker Board!
-        </MainTitle>
+        </Title>
         <Spacer />
-        <a href="https://github.com/bebeji-nappa/react-speaker-board" className="link">
-          <div className="GitHub">
-            <div className="logo">
-              <Image src="/github-logo.png" alt="GitHub Logo" width={40} height={40} />
-            </div>
-            <span className="GitHub-text">GitHub Repository</span>
-          </div>
-        </a>
+        <Link href="/docs/ja/introduction">
+          <a className="show-docs">
+            <span className="show-docs-text">Documentation(Japanese)</span>
+          </a>
+        </Link>
       </Layout>
     </Theme>
   )
