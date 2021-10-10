@@ -60,7 +60,7 @@ ReactDOM.render(
 
 作成完了後、ビルドすると、スライドが表示されます。
 
-→ [プレビューを見る](/docs/demo/introduction)
+→ [プレビューを見る](/demo/introduction)
 
 
 ### スライドボードの仕組みについて

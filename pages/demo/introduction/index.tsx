@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
 import { ReactSpeakerBoard } from "react-speaker-board"
-import { Slide } from "./Slide"
+import { Slide } from "../../../slide/demo/Slide"
 
 const Demo: NextPage = () => {
   return <ReactSpeakerBoard slide={Slide} mode="slide" />

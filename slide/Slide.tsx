@@ -235,7 +235,7 @@ const Documentation = () => {
         <Spacer />
         <Link href="/docs/ja/introduction">
           <a className="show-docs">
-            <span className="show-docs-text">Documentation</span>
+            <span className="show-docs-text">Documentation(Japanese)</span>
           </a>
         </Link>
       </Layout>

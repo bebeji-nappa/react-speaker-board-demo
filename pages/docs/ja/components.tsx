@@ -1,5 +1,5 @@
 import MdFile from "./md/components.md";
-import DocsBase from './components/base';
+import DocsBase from '../../../components/base';
 
 const Components = () => {
   return (

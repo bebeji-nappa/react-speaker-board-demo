@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import { useState, useEffect } from 'react';
 import { richmd } from 'richmd';
-import MdFile from "../md/menu.md";
+import MdFile from "../pages/docs/ja/md/menu.md";
 
 const DocsMenu: NextPage = () => {
   const [md, setMd] = useState<string>('');
