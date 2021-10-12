@@ -1,9 +1,12 @@
 import MdFile from "./md/introduction.md";
 import DocsBase from '../../../components/base';
-
+import MetaData from '../../../components/head'
 const DocsIndex = () => {
   return (
-    <DocsBase mdData={MdFile}/>
+    <>
+      <MetaData title="IntroDuction - Documetation | React Speaker Board" />
+      <DocsBase mdData={MdFile}/>
+    </>
   )
 }
 
