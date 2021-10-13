@@ -356,7 +356,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.27, @types/react@npm:^17.0.27":
+"@types/react@npm:*, @types/react@npm:^17.0.27":
+  version: 17.0.29
+  resolution: "@types/react@npm:17.0.29"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 39280743f6fec1bbc5c8e705976c1738a5526aaa0e693052badf5cd2dd599b6536dd815b651017737a533bf1c03db6a5738498796ff44f806e55324dc7867723
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:17.0.27":
   version: 17.0.27
   resolution: "@types/react@npm:17.0.27"
   dependencies:
@@ -4041,15 +4052,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-speaker-board@npm:^0.1.14":
-  version: 0.1.14
-  resolution: "react-speaker-board@npm:0.1.14"
+"react-speaker-board@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "react-speaker-board@npm:0.2.1"
   dependencies:
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 21d23f3f47ac0a1b4ac39319cf73c236e246df7ca0d5bea0364d9937cf26c526955a8049b11c407882a881e7d778f5ec5c15ff1975310adf4301eddb4c13ac00
+  checksum: e3f5a1a95fca88a6c4c63b1763d1f6f3eb9ab7095edde084c07a1816752ca098794db72f3a1d756dff3348d881c1a0ed949f1436a58b197e8c00da3ee56ad264
   languageName: node
   linkType: hard
 
@@ -4295,7 +4306,7 @@ resolve@^2.0.0-next.3:
     raw-loader: ^4.0.2
     react: 17.0.2
     react-dom: 17.0.2
-    react-speaker-board: ^0.1.14
+    react-speaker-board: ^0.2.1
     richmd: ^2.1.9
     typescript: 4.4.3
   languageName: unknown

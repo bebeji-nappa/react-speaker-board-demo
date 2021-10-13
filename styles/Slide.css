@@ -27,3 +27,11 @@
   flex-direction: row;
   text-decoration: none;
 }
+
+.figure {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
