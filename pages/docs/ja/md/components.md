@@ -173,7 +173,7 @@ const slide = () => {
     <Theme themeColor="dark" textColor="white">
       <Layout layout="section">
         <Title>Hello React Speaker Board!</Title>
-        <Content align="center" size="xxlarge">
+        <Content horizontal="center" size="xxlarge">
           YES!!!!
         </Content>
       </Layout>
@@ -193,10 +193,15 @@ const slide = () => {
 ===
 
 ### 配置一覧
-- `Left`
-- `Center`
-- `Right`
+#### horizontal
+- `left`
+- `center`
+- `right`
 
+#### vertical
+- `up`
+- `center`
+- `down`
 
 ### 文字サイズ一覧
 - `xsmall`
@@ -211,8 +216,11 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| align | 文字の配置を選択する | left |
+| horizontal | 中の要素の水平の配置を指定する | left |
+| vertical | 中の要素の垂直の配置を指定する | up |
 | size | 文字の大きさを選択する | medium |
+| width | 横幅を指定する | auto |
+| size | 縦幅を指定する | auto |
 
 
 ## Spacer
