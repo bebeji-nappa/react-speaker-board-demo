@@ -248,5 +248,7 @@ const slide = () => {
 ### Props
 - なし
 
+### [Figure](/docs/ja/figure)
+
 
 

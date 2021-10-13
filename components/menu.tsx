@@ -18,6 +18,11 @@ const DocsMenu: NextPage = () => {
             <a className="h5 docs-menu-list">Components</a>
           </Link>
         </li>
+        <li>
+          <Link href="/docs/ja/figure">
+            <a className="h5 docs-menu-list">Figure</a>
+          </Link>
+        </li>
       </ul>
     </div>
   )

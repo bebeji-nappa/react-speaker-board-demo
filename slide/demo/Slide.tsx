@@ -7,7 +7,7 @@ const Subject = () => {
       <Layout layout="subject">
         <Title textAlign="center">React Speaker Board</Title>
         <Spacer />
-        <Content align="center">
+        <Content horizontal="center">
           <span style={{ textAlign: "center" }}>
             Easily create presentation board using React.
           </span>
