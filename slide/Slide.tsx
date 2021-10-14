@@ -1,4 +1,4 @@
-import { Title, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board'
+import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board'
 import Link from 'next/link'
 
 const Subject = () => {
@@ -8,9 +8,7 @@ const Subject = () => {
         <Title textAlign="center">React Speaker Board</Title>
         <Spacer />
         <Content horizontal="center">
-          <span style={{ textAlign: "center" }}>
-            Easily create presentation board using React.
-          </span>
+          <Text textAlign="center">Easily create presentation board using React.</Text>
         </Content>
       </Layout>
     </Theme>
