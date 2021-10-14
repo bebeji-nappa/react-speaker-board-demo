@@ -22,18 +22,16 @@ $ yarn add react-speaker-board
 
 ```tsx:Slide.tsx
 import React from 'react'
-import { MainTitle, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
+import { Title, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
 
 const Subject = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">React Speaker Board</MainTitle>
+        <Title textAlign="center">React Speaker Board</Title>
         <Spacer />
         <Content align="center">
-          <span style={{ textAlign: "center" }}>
-            Easily create presentation board using React.
-          </span>
+          <Text textAlign="center">Easily create presentation board using React.</Text>
         </Content>
       </Layout>
     </Theme>
@@ -69,18 +67,16 @@ ReactDOM.render(
 
 ```tsx
 import React from 'react'
-import { MainTitle, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
+import { Title, Text, Content, SectionTitle, Spacer, Layout, Theme } from 'react-speaker-board'
 
 const Subject = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">React Speaker Board</MainTitle>
+        <Title textAlign="center">React Speaker Board</Title>
         <Spacer />
         <Content align="center">
-          <span style={{ textAlign: "center" }}>
-            Easily create presentation board using React.
-          </span>
+          <Text textAlign="center">Easily create presentation board using React.</Text>
         </Content>
       </Layout>
     </Theme>
@@ -93,9 +89,9 @@ const Concept = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <MainTitle textAlign="center">
+        <Title textAlign="center">
           Concept
-        </MainTitle>
+        </Title>
         <Spacer />
         <Spacer />
         <Content align="center">
@@ -114,9 +110,9 @@ const Documentation = () => {
   return (
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
-        <MainTitle textAlign="center">
+        <Title textAlign="center">
           Let's use React Speaker Board!
-        </MainTitle>
+        </Title>
       </Layout>
     </Theme>
   )

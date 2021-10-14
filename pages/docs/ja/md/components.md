@@ -162,7 +162,52 @@ const slide = () => {
 | Name | Description | Default |
 |----|----|----|
 | textAlign | 文字の配置を選択する | left |
-| size | 文字の大きさを選択する | xxxlarge |
+| textSize | 文字の大きさを選択する | xxxlarge |
+
+
+## Text
+```tsx
+import { Theme, Layout, Text } from 'react-speaker-board'
+
+const slide = () => {
+  return (
+    <Theme themeColor="dark" textColor="white">
+      <Layout layout="subject">
+        <Text>Hello React Speaker Board!</Text>
+      </Layout>
+    </Theme>
+  )
+}
+```
+
+スライドボードにテキストを挿入します。
+
+===warning
+**注意**: Layout の中で使用します。
+===
+
+### 配置一覧
+- `Left`
+- `Center`
+- `Right`
+
+
+### 文字サイズ一覧
+- `xsmall`
+- `small`
+- `medium`
+- `large`
+- `xlarge`
+- `xxlarge`
+- `xxxlarge`
+
+### Props
+
+| Name | Description | Default |
+|----|----|----|
+| textAlign | 文字の配置を選択する | left |
+| textSize | 文字の大きさを選択する | medium |
+
 
 ## Content
 ```tsx
@@ -220,7 +265,7 @@ const slide = () => {
 | vertical | 中の要素の垂直の配置を指定する | up |
 | size | 文字の大きさを選択する | medium |
 | width | 横幅を指定する | auto |
-| size | 縦幅を指定する | auto |
+| textSize | 縦幅を指定する | auto |
 
 
 ## Spacer
@@ -248,7 +293,6 @@ const slide = () => {
 ### Props
 - なし
 
-### [Figure](/docs/ja/figure)
 
 
 
