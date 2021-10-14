@@ -4052,15 +4052,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-speaker-board@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "react-speaker-board@npm:0.2.1"
+"react-speaker-board@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "react-speaker-board@npm:0.2.3"
   dependencies:
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: e3f5a1a95fca88a6c4c63b1763d1f6f3eb9ab7095edde084c07a1816752ca098794db72f3a1d756dff3348d881c1a0ed949f1436a58b197e8c00da3ee56ad264
+  checksum: 202056cfe7116c389d732256b97764b3541c245e3459fd3f0718339b075539e66bce7f9a539e388c725e7a04ea5f3fb3f62dda9d8feaa194b9058c9ecaccd964
   languageName: node
   linkType: hard
 
@@ -4306,7 +4306,7 @@ resolve@^2.0.0-next.3:
     raw-loader: ^4.0.2
     react: 17.0.2
     react-dom: 17.0.2
-    react-speaker-board: ^0.2.1
+    react-speaker-board: ^0.2.3
     richmd: ^2.1.9
     typescript: 4.4.3
   languageName: unknown

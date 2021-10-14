@@ -26,7 +26,7 @@ const Install = () => {
         <Spacer />
         <Title textAlign="center">Install</Title>
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">
             <code className="slide-code">
             $ yarn add react-speaker-board
@@ -44,13 +44,13 @@ const Concept = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Concept
         </Title>
         <Spacer />
         <Spacer />
         <Content horizontal="center">
-          <Content horizontal="left" size="xlarge">
+          <Content horizontal="left" textSize="xlarge">
             <li className="slide-list">Easy to make</li>
             <li className="slide-list">Easy to customize</li>
             <li className="slide-list">Abundant theme colors</li>
@@ -66,13 +66,13 @@ const Figure = () => {
     <Theme themeColor="sky" textColor="white">
       <Layout layout="section">
         <Spacer />
-        <Title textAlign="center" size="xlarge">It can create Figure!!</Title>
+        <Title textAlign="center" textSize="xlarge">It can create Figure!!</Title>
         <Spacer />
         <Spacer />
         <Content horizontal="center">
           <div className="figure">
             <Square width="300" height="400" color="black" borderColor="yellow" borderWidth="10">
-              <Content vertical='center' horizontal='center' size='large' height='100%'>
+              <Content vertical='center' horizontal='center' textSize='large' height='100%'>
                 Box
               </Content>
             </Square>
@@ -81,7 +81,7 @@ const Figure = () => {
               <TriangleRight height="40" size="80" color="white" />
             </div>
             <Circle width="300" height="300" color="#e83a3a" borderColor="white" borderWidth="10">
-              <Content vertical='center' horizontal='center' size='large' height='100%'>
+              <Content vertical='center' horizontal='center' textSize='large' height='100%'>
                 Circle
               </Content>
             </Circle>
@@ -110,12 +110,12 @@ const Default = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Default</Layout>
         </Content>
       </Layout>
@@ -129,12 +129,12 @@ const Sunset = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Sunset</Layout>
         </Content>
       </Layout>
@@ -148,12 +148,12 @@ const Malinka = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Malinka</Layout>
         </Content>
       </Layout>
@@ -167,12 +167,12 @@ const Moon = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Moon</Layout>
         </Content>
       </Layout>
@@ -186,12 +186,12 @@ const Darkblue = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Darkblue</Layout>
         </Content>
       </Layout>
@@ -205,12 +205,12 @@ const Green = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Green</Layout>
         </Content>
       </Layout>
@@ -224,12 +224,12 @@ const Sky = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Sky</Layout>
         </Content>
       </Layout>
@@ -243,12 +243,12 @@ const Dark = () => {
       <Layout layout="section">
         <Spacer />
         <Spacer />
-        <Title textAlign="center" size="xlarge">
+        <Title textAlign="center" textSize="xlarge">
           Themes
         </Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center" size="xxlarge">
+        <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">Dark</Layout>
         </Content>
       </Layout>
