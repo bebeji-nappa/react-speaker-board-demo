@@ -1207,9 +1207,9 @@ __metadata:
   linkType: hard
 
 "core-js@npm:3":
-  version: 3.18.2
-  resolution: "core-js@npm:3.18.2"
-  checksum: 4a09d170d8135a1f1c458f6aef786ba18bfb81fa6dab106561dd5379b9d175400ed012c2a30eee921b6e5bd53842ce32fb02ffd57d2984e157de622d9439dc5c
+  version: 3.18.3
+  resolution: "core-js@npm:3.18.3"
+  checksum: 4aa5017992c18b0a09ded6c7dbf3c3880b27b6ade97a522dba332f52381466978d441317e5aad49f0684e9241aecc450e3e72c550ddaccfc9fb1e69c5908e53c
   languageName: node
   linkType: hard
 
@@ -2343,9 +2343,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "highlight.js@npm:^11.2.0":
-  version: 11.2.0
-  resolution: "highlight.js@npm:11.2.0"
-  checksum: 12bfd562899a6a70d20321460ec40a94456bd8a9cb7deedbb70630c1981b937690fa0c7cf056d8f12c3c39981b400fb1a4f8b784b97399b26bd812460809cc0e
+  version: 11.3.1
+  resolution: "highlight.js@npm:11.3.1"
+  checksum: 9adaaa1fe5aaae0ca522f9355bc2a7387f76ab362f88c32c86879b99f606619a9aa33c32ffc94cd893987e71ba5d2de6f3e325ed9e8eac65e5872d251e8cba3a
   languageName: node
   linkType: hard
 
@@ -4239,9 +4239,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"richmd@npm:^2.0.0":
-  version: 2.1.8
-  resolution: "richmd@npm:2.1.8"
+"richmd@npm:^2.0.0, richmd@npm:^2.1.10":
+  version: 2.1.10
+  resolution: "richmd@npm:2.1.10"
   dependencies:
     commander: ^8.1.0
     core-js: 3.16.1
@@ -4252,24 +4252,7 @@ resolve@^2.0.0-next.3:
     richmd-cli: ^0.2.0
   bin:
     richmd: lib/script.js
-  checksum: 157eee75b830226053295ba51e04151064103ee79bda6046729ad90090b15ea995287fa8f9cf18c44c61b08acafe781d34d7d0eaf004c8b92bd8f355ee3e42aa
-  languageName: node
-  linkType: hard
-
-"richmd@npm:^2.1.9":
-  version: 2.1.9
-  resolution: "richmd@npm:2.1.9"
-  dependencies:
-    commander: ^8.1.0
-    core-js: 3.16.1
-    fs-extra: ^10.0.0
-    highlight.js: ^11.2.0
-    katex: ^0.13.13
-    mkdirp: ^1.0.4
-    richmd-cli: ^0.2.0
-  bin:
-    richmd: lib/script.js
-  checksum: 5b7fd606f6f4c18a1d65400c33ed058ebdc24ae17074856a68a549c7d3f41df3cfa3f7d93bc1869642bc8bd9b2adf378bf70bbb551f7be210d0140fdb0373bdf
+  checksum: 84751273eb7990021180b0986054e68404d5ae9c4eab23ca8c75026c86f64a09b96d464485f241cb80d4e5dc2a78c90845e654424690a2a98c1ac94e6e481f37
   languageName: node
   linkType: hard
 
@@ -4307,7 +4290,7 @@ resolve@^2.0.0-next.3:
     react: 17.0.2
     react-dom: 17.0.2
     react-speaker-board: ^0.2.3
-    richmd: ^2.1.9
+    richmd: ^2.1.10
     typescript: 4.4.3
   languageName: unknown
   linkType: soft

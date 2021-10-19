@@ -75,11 +75,11 @@ export default Figure
 #### Props
 | Name | Description | Default |
 |----|----|----|
-| color | 四角形の色を指定する(16進数指定可能) | black |
-| width | 横幅を px で指定する(数値のみ指定) | 100 |
-| height | 縦幅を px で指定する(数値のみ指定) | 100 |
-| borderColor | 枠線の色を指定する(16進数指定可能) | white |
-| borderWidth | 枠線の太さを指定する(数値のみ指定) | 0 |
+| color | 四角形の色を指定する(16進数指定可能) | `black` |
+| width | 横幅を px で指定する(数値のみ指定) | `100` |
+| height | 縦幅を px で指定する(数値のみ指定) | `100` |
+| borderColor | 枠線の色を指定する(16進数指定可能) | `white` |
+| borderWidth | 枠線の太さを指定する(数値のみ指定) | `0` |
 
 ### Circle
 円形を生成します。また、円形の中に文字やHTMLを指定することが出来ます。
@@ -101,11 +101,11 @@ export default Figure
 #### Props
 | Name | Description | Default |
 |----|----|----|
-| color | 四角形の色を指定する(16進数指定可能) | black |
-| width | 横幅を px で指定する(数値のみ指定) | 100 |
-| height | 縦幅を px で指定する(数値のみ指定) | 100 |
-| borderColor | 枠線の色を指定する(16進数指定可能) | white |
-| borderWidth | 枠線の太さを指定する(数値のみ指定) | 0 |
+| color | 四角形の色を指定する(16進数指定可能) | `black` |
+| width | 横幅を px で指定する(数値のみ指定) | `100` |
+| height | 縦幅を px で指定する(数値のみ指定) | `100` |
+| borderColor | 枠線の色を指定する(16進数指定可能) | `white` |
+| borderWidth | 枠線の太さを指定する(数値のみ指定) | `0` |
 
 ### TriangleUp / TriangleDown / TriangleRight / TriangleLeft
 三角形を生成します。
@@ -139,9 +139,9 @@ export default Figure
 #### Props
 | Name | Description | Default |
 |----|----|----|
-| color | 三角形の色を指定する(16進数指定可能) | black |
-| size | 大きさを px で指定する(数値のみ指定) | 100 |
-| height | 三角形の高さを px で指定する(数値のみ指定) | 100 |
+| color | 三角形の色を指定する(16進数指定可能) | `black` |
+| size | 大きさを px で指定する(数値のみ指定) | `100` |
+| height | 三角形の高さを px で指定する(数値のみ指定) | `100` |
 
 
 ## Tips: 矢印を作る
