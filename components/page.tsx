@@ -7,7 +7,6 @@ const DocsPage: NextPage<DocsPage> = ({ children }) => {
   useEffect(() => {
     setMd(richmd(children))
   }, [children])
-
   return (
     <div className="docs-page">
       <div className="docs-wrapper" dangerouslySetInnerHTML={{__html: md}}></div>

@@ -8,7 +8,7 @@ const DocsMenu: NextPage = () => {
         <a className="h4 docs-menu-title">React Speaker Board</a>
       </Link>
       <pre style={{ backgroundColor: "#dddddd", fontSize: "14px", padding: "5px" }}>
-        <code>v0.2.3</code>
+        <code>v0.2.4</code>
       </pre>
       <ul>
         <li>

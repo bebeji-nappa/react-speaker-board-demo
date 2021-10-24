@@ -27,12 +27,12 @@ ReactDOM.render(
 
 | Name | Description | Default |
 |----|----|----|
-| mode | スライドボードの表示モードを選択する(slide / inlineSlide) | slide |
+| mode | スライドボードの表示モードを選択する(`slide` / `inlineSlide`) | `slide` |
 | slide(必須) | スライドボードのコンポーネントを指定する | - |
-| controlTheme | スライドボード操作ボタンの色を指定する(16進数指定が可能) | #71a3e3 |
-| controlBar | スライドボード操作バーの背景色を選択する(none / light / dark) | none |
-| width | スライドボードの横幅を指定する(inlineSlide モード時のみ指定可能) | 80vw |
-| height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | 80vh |
+| controlTheme | スライドボード操作ボタンの色を指定する(16進数指定が可能) | `#71a3e3` |
+| controlBar | スライドボード操作バーの背景色を選択する(`none` / `light` / `dark`) | `none` |
+| width | スライドボードの横幅を指定する(inlineSlide モード時のみ指定可能) | `80vw` |
+| height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | `80vh` |
 
 ## Theme
 
@@ -75,8 +75,8 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| themeColor | スライドボードの背景色を選択する | default |
-| textColor | スライドボードの文字色を指定する(16進数での指定可能) | black(#000000) |
+| themeColor | スライドボードの背景色を選択する | `default` |
+| textColor | スライドボードの文字色を指定する(16進数での指定可能) | `black(#000000)` |
 
 ## Layout
 
@@ -161,8 +161,8 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| textAlign | 文字の配置を選択する | left |
-| textSize | 文字の大きさを選択する | xxxlarge |
+| textAlign | 文字の配置を選択する | `left` |
+| textSize | 文字の大きさを選択する | `xxxlarge` |
 
 
 ## Text
@@ -205,8 +205,8 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| textAlign | 文字の配置を選択する | left |
-| textSize | 文字の大きさを選択する | medium |
+| textAlign | 文字の配置を選択する | `left` |
+| textSize | 文字の大きさを選択する | `medium` |
 
 
 ## Content
@@ -261,11 +261,11 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| horizontal | 中の要素の水平の配置を指定する | left |
-| vertical | 中の要素の垂直の配置を指定する | up |
-| size | 文字の大きさを選択する | medium |
-| width | 横幅を指定する | auto |
-| textSize | 縦幅を指定する | auto |
+| horizontal | 中の要素の水平の配置を指定する | `left` |
+| vertical | 中の要素の垂直の配置を指定する | `up` |
+| size | 文字の大きさを選択する | `medium` |
+| width | 横幅を指定する | `auto` |
+| textSize | 縦幅を指定する | `auto` |
 
 
 ## Spacer
