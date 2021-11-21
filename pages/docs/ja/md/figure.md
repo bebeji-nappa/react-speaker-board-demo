@@ -16,6 +16,7 @@
 ```tsx
 import React from "react";
 import { Title, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board'
+
 const Figure = () => {
   return (
     <Theme themeColor="sky" textColor="white">
@@ -63,6 +64,7 @@ export default Figure
 ```tsx
 import React from "react";
 import { Square } from 'react-speaker-board'
+
 const Figure = () => {
   return (
     <Square width="300" height="400" color="black" borderColor="yellow" borderWidth="10" />
@@ -89,6 +91,7 @@ export default Figure
 ```tsx
 import React from "react";
 import { Circle } from 'react-speaker-board'
+
 const Figure = () => {
   return (
     <Circle width="300" height="300" color="red" borderColor="white" borderWidth="10" />
@@ -127,6 +130,7 @@ export default Figure
 ```tsx
 import React from "react";
 import { TriangleRight } from 'react-speaker-board'
+
 const Figure = () => {
   return (
     <TriangleRight height="40" size="80" color="white" />
@@ -152,6 +156,7 @@ export default Figure
 ```tsx
 import React from "react";
 import { Square, TriangleRight } from 'react-speaker-board'
+
 const Figure = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
