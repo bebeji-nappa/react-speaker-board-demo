@@ -12,7 +12,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-speaker-board": "^0.2.3",
-    "richmd": "^2.2.1"
+    "richmd": "^2.2.3"
   },
   "devDependencies": {
     "@types/react": "17.0.27",
