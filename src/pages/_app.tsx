@@ -1,7 +1,7 @@
 import '../../styles/globals.css';
 import '../../styles/docs.css';
 import '../../styles/slide.css';
-import "react-speaker-board/styles/ReactSpeakerBoard.css";
+import "react-speaker-board/styles/reactSpeakerBoard.css";
 
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
