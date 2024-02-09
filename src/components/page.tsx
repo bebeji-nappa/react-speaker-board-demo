@@ -2,7 +2,11 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import { richmd } from 'richmd';
 
-const DocsPage = ({ children }) => {
+type DocsPageProps = {
+  children: string;
+};
+
+const DocsPage: React.FC<DocsPageProps> = ({ children }) => {
   const [md, setMd] = useState<string>('');
   useEffect(() => {
     console.log(children)
