@@ -1,6 +1,5 @@
 import { ReactSpeakerBoard } from "react-speaker-board"
-import { Slide } from "../../slide/Slide";
-import "../../styles/slide.css";
+import { Slide } from "../slide/Slide";
 
 export default function Home () {
   return (

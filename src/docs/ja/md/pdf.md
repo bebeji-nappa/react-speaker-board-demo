@@ -6,7 +6,7 @@
 `ReactSpeakerBoard` から `AllSlidePdf` コンポーネントに差し替えます。
 
 ```tsx
-import { ReactSpeakerBoard } from 'react-speaker-board'
+import { AllSlidePdf } from 'react-speaker-board'
 
 export default function Home () {
   return <AllSlidePdf slide={Slide} />

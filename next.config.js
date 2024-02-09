@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
-}
+const withTM = require('next-transpile-modules')(['react-speaker-board']);
+module.exports = withTM({
+  experimental: {
+    esmExternals: true
+  }
+});

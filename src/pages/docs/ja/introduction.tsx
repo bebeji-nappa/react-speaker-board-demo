@@ -2,9 +2,10 @@ import React from "react";
 import DocsBase from '../../../components/base';
 import MetaData from '../../../components/head';
 import fs from 'fs';
+import path from 'path';
 
 export async function getStaticProps() {
-  const MdFile = fs.readFileSync('src/docs/ja/md/introduction.md', 'utf-8');
+  const MdFile = fs.readFileSync("src/docs/ja/md/introduction.md", 'utf-8');
   return {
     props: {
       MdFile
