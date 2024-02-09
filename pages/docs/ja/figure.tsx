@@ -1,6 +1,6 @@
 import MdFile from "./md/figure.md";
-import DocsBase from '../../../components/base';
-import MetaData from '../../../components/head'
+import DocsBase from '../../../src/components/base';
+import MetaData from '../../../src/components/head'
 
 const Figure = () => {
   return (
