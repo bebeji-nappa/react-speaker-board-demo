@@ -41,6 +41,7 @@
   flex-direction: row;
   margin: 0 20px;
   background-color: #fff;
+  gap: 20px;
 }
 
 .docs-menu-list {

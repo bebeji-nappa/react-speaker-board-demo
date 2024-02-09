@@ -1,3 +1,4 @@
+import React from "react";
 import Link from 'next/link';
 
 const DocsMenu = () => {
@@ -7,7 +8,7 @@ const DocsMenu = () => {
         React Speaker Board
       </Link>
       <pre style={{ backgroundColor: "#dddddd", fontSize: "14px", padding: "5px" }}>
-        <code>v0.2.4</code>
+        <code>v0.3.0</code>
       </pre>
       <ul>
         <li>
@@ -23,6 +24,11 @@ const DocsMenu = () => {
         <li>
           <Link href="/docs/ja/figure" className="h5 docs-menu-list">
             Figure
+          </Link>
+        </li>
+        <li>
+          <Link href="/docs/ja/pdf" className="h5 docs-menu-list">
+            PDF Download
           </Link>
         </li>
       </ul>

@@ -1,13 +1,25 @@
-import MdFile from "../../md/figure.md";
-import Head from 'next/head'
+import React from "react";
+import MetaData from '../../../components/head';
 import DocsBase from '../../../components/base';
+import fs from 'fs';
 
-const Figure = () => {
+export async function getStaticProps() {
+  const MdFile = fs.readFileSync('src/docs/ja/md/figure.md', 'utf-8');
+  return {
+    props: {
+      MdFile
+    }
+  }
+}
+
+type FigureProps = {
+  MdFile: string
+}
+
+const Figure: React.FC<FigureProps> = ({ MdFile }) => {
   return (
     <div>
-      <Head>
-        <title>Figure - Documetation | React Speaker Board</title>
-      </Head>
+      <MetaData title="Figure - Documetation | React Speaker Board" />
       <DocsBase mdData={MdFile}/>
     </div>
   )

@@ -5,10 +5,9 @@
 ```tsx
 import { ReactSpeakerBoard } from 'react-speaker-board'
 
-ReactDOM.render(
-  <ReactSpeakerBoard slide={Slide} mode="slide" />,
-  document.getElementById('root')
-);
+export default function Home () {
+  return <ReactSpeakerBoard slide={Slide} mode="slide" />
+};
 ```
 
 スライドボードコンポーネントをブラウザに読み込ませるコンポーネントです。
@@ -34,7 +33,6 @@ ReactDOM.render(
 | height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | `80vh` |
 
 ## Theme
-
 ```tsx
 import { Theme } from 'react-speaker-board'
 
@@ -50,32 +48,43 @@ const slide = () => {
 ```
 
 スライドボード全体のテーマ(背景/文字色)を指定します。
+また、`props.customThemeColor` で、単色カラーなど背景色をカスタマイズ出来ます。
+
+```tsx
+import { Theme } from 'react-speaker-board'
+
+const slide = () => {
+  return (
+    <Theme customThemeColor="#ff0000" textColor="white">
+      {/*
+        略
+      */}
+    </Theme>
+  )
+}
+```
 
 ===warning
 このコンポーネントは必須です。必ず最初に挿入します。
 ===
 
-===warning
-背景色のカスタマイズは、現在出来ません。
-===
-
-
-### 背景色一覧
-- `Default`
-- `Sunset`
-- `Malinka`
-- `Moon`
-- `Darkblue`
-- `Sky`
-- `Green`
-- `Dark`
+### 背景テーマ一覧
+- `default`
+- `sunset`
+- `malinka`
+- `moon`
+- `darkblue`
+- `sky`
+- `green`
+- `dark`
 
 ### Props
 
 | Name | Description | Default |
 |----|----|----|
-| themeColor | スライドボードの背景色を選択する | `default` |
+| themeColor | スライドボードの背景テーマを選択する | `default` |
 | textColor | スライドボードの文字色を指定する(16進数での指定可能) | `black(#000000)` |
+| customThemeColor | スライドボードの背景色を指定する(16進数での指定可能) | - |
 
 ## Layout
 
@@ -107,10 +116,10 @@ const slide = () => {
 ===
 
 ### レイアウト一覧
-#### `Subject`
+#### `subject`
 タイトル&主題を表示するためのレイアウト
 
-#### `Section`
+#### `section`
 タイトル以外のコンテンツを表示するためのレイアウト
 
 
@@ -118,7 +127,7 @@ const slide = () => {
 
 | Name | Description | Default |
 |----|----|----|
-| layout(必須) | スライドボードのレイアウトを選択する | - |
+| layout(必須) | スライドボードのレイアウトを選択する(`subject`/`section`) | - |
 
 ## Title
 ```tsx
@@ -291,7 +300,4 @@ Layout の中で使用します。
 
 ### Props
 - なし
-
-
-
 

@@ -42,18 +42,16 @@ export const Slide = [ Subject ]
 ```
 
 次に、作成したスライドボード読み込んで、ブラウザで表示できるようにします。
+(以下は Next.js を使う想定で記載しています)
 
 ```tsx:index.tsx
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { ReactSpeakerBoard } from 'react-speaker-board'
-import 'react-speaker-board/styles/style.css'
 import { Slide } from './slide'
 
-ReactDOM.render(
-  <ReactSpeakerBoard slide={Slide} mode="slide" />,
-  document.getElementById('root')
-);
+export default function Home () {
+  return <ReactSpeakerBoard slide={Slide} mode="slide" />
+};
 ```
 
 作成完了後、ビルドすると、スライドが表示されます。
