@@ -262,10 +262,8 @@ const Documentation = () => {
           Let's use React Speaker Board!
         </Title>
         <Spacer />
-        <Link href="/docs/ja/introduction">
-          <a className="show-docs">
-            <span className="show-docs-text">Documentation(Japanese)</span>
-          </a>
+        <Link href="/docs/ja/introduction" className="show-docs">
+          <span className="show-docs-text">Documentation(Japanese)</span>
         </Link>
       </Layout>
     </Theme>

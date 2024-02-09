@@ -8,18 +8,26 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-speaker-board": "^0.2.3",
-    "richmd": "^2.2.3"
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-speaker-board": "^0.2.7",
+    "richmd": "^2.2.9"
   },
   "devDependencies": {
-    "@types/react": "17.0.27",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
     "file-loader": "^6.2.0",
     "raw-loader": "^4.0.2",
-    "typescript": "4.4.3"
+    "typescript": "^5"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "pnpm": "8.15.1"
   }
 }

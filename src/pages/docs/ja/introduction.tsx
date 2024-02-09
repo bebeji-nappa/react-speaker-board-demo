@@ -1,6 +1,6 @@
-import MdFile from "./md/introduction.md";
-import DocsBase from '../../../src/components/base';
-import MetaData from '../../../src/components/head'
+import MdFile from "../../md/introduction.md";
+import DocsBase from '../../../components/base';
+import MetaData from '../../../components/head'
 const DocsIndex = () => {
   return (
     <>

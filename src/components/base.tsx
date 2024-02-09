@@ -1,8 +1,7 @@
-import { NextPage } from 'next'
 import DocsMenu from './menu'
 import DocsPage from './page'
 
-const DocsBase: NextPage<DocsBase> = ({ mdData }) => {
+const DocsBase: React.FC<DocsBase> = ({ mdData }) => {
   return (
     <div className="docs-base">
       <DocsMenu />
