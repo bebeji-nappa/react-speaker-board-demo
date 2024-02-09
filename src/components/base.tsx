@@ -1,8 +1,9 @@
-import { NextPage } from 'next'
+import React from "react";
 import DocsMenu from './menu'
 import DocsPage from './page'
+import "richmd/richmd.css";
 
-const DocsBase: NextPage<DocsBase> = ({ mdData }) => {
+const DocsBase: React.FC<DocsBase> = ({ mdData }) => {
   return (
     <div className="docs-base">
       <DocsMenu />

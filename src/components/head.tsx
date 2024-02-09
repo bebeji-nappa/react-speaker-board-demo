@@ -1,3 +1,4 @@
+import React from "react";
 import Head from 'next/head'
 
 const MetaData = ({title = "React Speacker Board", description="Easily create presentation board using React."}) => {

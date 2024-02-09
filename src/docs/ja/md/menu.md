@@ -1,6 +1,6 @@
 #### React Speaker Board
 
-`v0.2.4`
+`v0.3.0`
 
 ##### [Introduction](/docs/ja/introduction)
 

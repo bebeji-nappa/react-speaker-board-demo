@@ -1,4 +1,4 @@
-import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board'
+import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board';
 import Link from 'next/link'
 
 const Subject = () => {
@@ -259,13 +259,11 @@ const Documentation = () => {
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
         <Title textAlign="center">
-          Let's use React Speaker Board!
+          Let&apos;s use React Speaker Board!
         </Title>
         <Spacer />
-        <Link href="/docs/ja/introduction">
-          <a className="show-docs">
-            <span className="show-docs-text">Documentation(Japanese)</span>
-          </a>
+        <Link href="/docs/ja/introduction" className="show-docs">
+          <span className="show-docs-text">Documentation(Japanese)</span>
         </Link>
       </Layout>
     </Theme>
