@@ -11,9 +11,10 @@
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "next": "14.1.0",
+    "next-transpile-modules": "^10.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-speaker-board": "^0.2.7",
+    "react-speaker-board": "^0.3.1",
     "richmd": "^2.2.9"
   },
   "devDependencies": {

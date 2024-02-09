@@ -1,4 +1,4 @@
-import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board'
+import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board';
 import Link from 'next/link'
 
 const Subject = () => {
