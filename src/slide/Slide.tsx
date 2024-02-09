@@ -259,7 +259,7 @@ const Documentation = () => {
     <Theme themeColor="sky" textColor="white">
       <Layout layout="subject">
         <Title textAlign="center">
-          Let's use React Speaker Board!
+          Let&apos;s use React Speaker Board!
         </Title>
         <Spacer />
         <Link href="/docs/ja/introduction" className="show-docs">
