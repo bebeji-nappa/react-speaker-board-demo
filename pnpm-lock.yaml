@@ -24,8 +24,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-speaker-board:
-    specifier: ^0.3.1
-    version: 0.3.1
+    specifier: ^0.3.2
+    version: 0.3.2
   richmd:
     specifier: ^2.2.9
     version: 2.2.9
@@ -2421,8 +2421,8 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-speaker-board@0.3.1:
-    resolution: {integrity: sha512-U+PTC3sil2C0ZV34nO7dTIVvUhRG4DkiD27sKev65UKp97XqgwE9UJ+fnm6LY895WFfAVc8GeraKRP6lJX823Q==}
+  /react-speaker-board@0.3.2:
+    resolution: {integrity: sha512-H3hCI2zYkl6O9n7sP2rOcExd3ZxSQUy/MSt8u5hAVO0eLVNFS2sOSk5erAEthgDXIKoZlxfW4ucft1++67WtUQ==}
     dependencies:
       '@types/react': 18.2.55
       '@types/react-dom': 18.2.19
