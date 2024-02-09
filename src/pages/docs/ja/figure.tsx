@@ -1,5 +1,6 @@
 import MdFile from "../../md/figure.md";
 import Head from 'next/head'
+import DocsBase from '../../../components/base';
 
 const Figure = () => {
   return (
