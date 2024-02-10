@@ -24,8 +24,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-speaker-board:
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^0.4.1
+    version: 0.4.1
   richmd:
     specifier: ^2.2.9
     version: 2.2.9
@@ -282,6 +282,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@react-hook/event@1.2.6(react@18.2.0):
+    resolution: {integrity: sha512-JUL5IluaOdn5w5Afpe/puPa1rj8X6udMlQ9dt4hvMuKmTrBS1Ya6sb4sVgvfe2eU4yDuOfAhik8xhbcCekbg9Q==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@rushstack/eslint-patch@1.7.2:
     resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
@@ -2421,9 +2429,10 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-speaker-board@0.4.0:
-    resolution: {integrity: sha512-U1HfUj0ajIeLcsJWd/jaBNksJqLPGHKYNqLlurSRXzFE0XoBe73QjGToGWJXYX7jBJGP79HcLOKiVutzvchsLg==}
+  /react-speaker-board@0.4.1:
+    resolution: {integrity: sha512-CZKLH7og41pczYzNCkyUFZZ/eCJifdCtjRWxOl+kJlt/VQYO80rFIlqYIOvwqITRr+tzIN+VNbsqdBq8QcR08Q==}
     dependencies:
+      '@react-hook/event': 1.2.6(react@18.2.0)
       '@types/react': 18.2.55
       '@types/react-dom': 18.2.19
       highlight.js: 11.9.0
