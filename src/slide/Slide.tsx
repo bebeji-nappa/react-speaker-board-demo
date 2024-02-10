@@ -1,4 +1,4 @@
-import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle } from 'react-speaker-board';
+import { Title, Text, Content, Spacer, Layout, Theme, TriangleRight, Square, Circle, Code, ArrowRight } from 'react-speaker-board';
 import Link from 'next/link'
 
 const Subject = () => {
@@ -26,9 +26,9 @@ const Install = () => {
         <Spacer />
         <Content horizontal="center" textSize="xxlarge">
           <Layout layout="subject">
-            <code className="slide-code">
+            <Code lang="bash" textSize="50px" padding="40px">
             $ yarn add react-speaker-board
-            </code>
+            </Code>
           </Layout>
         </Content>
       </Layout>
@@ -67,23 +67,18 @@ const Figure = () => {
         <Title textAlign="center" textSize="xlarge">It can create Figure!!</Title>
         <Spacer />
         <Spacer />
-        <Content horizontal="center">
-          <div className="figure">
-            <Square width="300" height="400" color="black" borderColor="yellow" borderWidth="10">
-              <Content vertical='center' horizontal='center' textSize='large' height='100%'>
-                Box
-              </Content>
-            </Square>
-            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
-              <Square width="100" height="60" color="white" />
-              <TriangleRight height="40" size="80" color="white" />
-            </div>
-            <Circle width="300" height="300" color="#e83a3a" borderColor="white" borderWidth="10">
-              <Content vertical='center' horizontal='center' textSize='large' height='100%'>
-                Circle
-              </Content>
-            </Circle>
-          </div>
+        <Content horizontal="center" vertical="center" layout="horizontal" gap="50px">
+          <Square width="300px" height="400px" color="black" borderColor="yellow" borderWidth="10px">
+            <Content vertical='center' horizontal='center' textSize='large' height='100%'>
+              Box
+            </Content>
+          </Square>
+          <ArrowRight width="100px" color="white" />
+          <Circle width="300px" height="300px" color="#e83a3a" borderColor="white" borderWidth="10px">
+            <Content vertical='center' horizontal='center' textSize='large' height='100%'>
+              Circle
+            </Content>
+          </Circle>
         </Content>
       </Layout>
     </Theme>
