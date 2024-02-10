@@ -24,8 +24,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-speaker-board:
-    specifier: ^0.3.2
-    version: 0.3.2
+    specifier: ^0.4.0
+    version: 0.4.0
   richmd:
     specifier: ^2.2.9
     version: 2.2.9
@@ -2421,11 +2421,12 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-speaker-board@0.3.2:
-    resolution: {integrity: sha512-H3hCI2zYkl6O9n7sP2rOcExd3ZxSQUy/MSt8u5hAVO0eLVNFS2sOSk5erAEthgDXIKoZlxfW4ucft1++67WtUQ==}
+  /react-speaker-board@0.4.0:
+    resolution: {integrity: sha512-U1HfUj0ajIeLcsJWd/jaBNksJqLPGHKYNqLlurSRXzFE0XoBe73QjGToGWJXYX7jBJGP79HcLOKiVutzvchsLg==}
     dependencies:
       '@types/react': 18.2.55
       '@types/react-dom': 18.2.19
+      highlight.js: 11.9.0
       html2canvas: 1.4.1
       jspdf: 2.5.1
       react: 18.2.0
