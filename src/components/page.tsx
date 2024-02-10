@@ -9,7 +9,6 @@ type DocsPageProps = {
 const DocsPage: React.FC<DocsPageProps> = ({ children }) => {
   const [md, setMd] = useState<string>('');
   useEffect(() => {
-    console.log(children)
     setMd(richmd(children))
   }, [children])
   return (
