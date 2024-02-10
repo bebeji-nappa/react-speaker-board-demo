@@ -11,12 +11,21 @@ React Speaker Board はスライドボードを簡単に作成するためのコ
 以下のコマンドを実行します。
 
 ```txt: shell
-$ yarn add react-speaker-board
+$ pnpm add react-speaker-board
 ```
 
 ## Usage
 
 まずは、スライドボードのコンポーネントを作成します。今回はタイトル画面だけ作ってみましょう。
+今回は Next.js を使う想定で記載しています。
+
+まずは `_app.tsx` に CSS をインポートします。
+
+```tsx:_app.tsx
+import "react-speaker-board/styles/reactSpeakerBoard.css";
+
+// .... (略) ....
+```
 
 `jsx` or `tsx` ファイルを作成して、以下のコードを記述します。
 
@@ -42,7 +51,6 @@ export const Slide = [ Subject ]
 ```
 
 次に、作成したスライドボード読み込んで、ブラウザで表示できるようにします。
-(以下は Next.js を使う想定で記載しています)
 
 ```tsx:index.tsx
 import React from 'react'
