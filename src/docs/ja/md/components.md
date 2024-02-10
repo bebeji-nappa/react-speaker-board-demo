@@ -239,7 +239,7 @@ const slide = () => {
 スライドボードのコンテンツを表示するためのコンポーネントです。`Content` 内では、文字列 & HTML で自由に調整ができます。
 
 ===warning
-Layout の中で使用します。
+Content の中に Layout を定義することも出来ますが、基本的に Layout の中で使用します。
 ===
 
 ===warning
@@ -266,6 +266,9 @@ Layout の中で使用します。
 - `xxlarge`
 - `xxxlarge`
 
+#### layout
+コンテンツを縦並びか横並びにするか選択できます。
+
 ### Props
 
 | Name | Description | Default |
@@ -275,6 +278,7 @@ Layout の中で使用します。
 | size | 文字の大きさを選択する | `medium` |
 | width | 横幅を指定する | `auto` |
 | textSize | 縦幅を指定する | `auto` |
+| layout | コンテンツを縦並びか横並びにするか選択する (`horizontal` / `vertical`) | `vertical` |
 
 
 ## Spacer
