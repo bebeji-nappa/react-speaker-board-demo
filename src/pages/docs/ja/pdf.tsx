@@ -19,7 +19,7 @@ type PdfDownloadProps = {
 const PdfDownload: React.FC<PdfDownloadProps> = ({ MdFile }) => {
   return (
     <>
-      <MetaData title="PdfDownload - Documetation | React Speaker Board" />
+      <MetaData title="PDF Download - Documetation | React Speaker Board" />
       <DocsBase mdData={MdFile} />
     </>
   )
