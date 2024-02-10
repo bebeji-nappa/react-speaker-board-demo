@@ -27,10 +27,11 @@ export default function Home () {
 |----|----|----|
 | mode | スライドボードの表示モードを選択する(`slide` / `inlineSlide`) | `slide` |
 | slide(必須) | スライドボードのコンポーネントを指定する | - |
-| controlTheme | スライドボード操作ボタンの色を指定する(16進数指定が可能) | `#71a3e3` |
-| controlBar | スライドボード操作バーの背景色を選択する(`none` / `light` / `dark`) | `none` |
-| width | スライドボードの横幅を指定する(inlineSlide モード時のみ指定可能) | `80vw` |
-| height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | `80vh` |
+| controlArrowColor | スライドボード操作ボタンの色を指定する(16進数指定が可能) | `#71a3e3` |
+| controlBgColor | スライドボード操作バーの背景色を選択する(`none` / `light` / `dark`) | `none` |
+| controlBar | スライドボード操作モードを選択する(`all` / `arrow` / `keyboard`) | `all` |
+| width | スライドボードの横幅を指定する(inlineSlide モード時のみ指定可能) | `100vw` |
+| height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | `100vh` |
 
 ## Theme
 ```tsx
@@ -238,7 +239,7 @@ const slide = () => {
 スライドボードのコンテンツを表示するためのコンポーネントです。`Content` 内では、文字列 & HTML で自由に調整ができます。
 
 ===warning
-Layout の中で使用します。
+Content の中に Layout を定義することも出来ますが、基本的に Layout の中で使用します。
 ===
 
 ===warning
@@ -265,6 +266,9 @@ Layout の中で使用します。
 - `xxlarge`
 - `xxxlarge`
 
+#### layout
+コンテンツを縦並びか横並びにするか選択できます。
+
 ### Props
 
 | Name | Description | Default |
@@ -274,6 +278,7 @@ Layout の中で使用します。
 | size | 文字の大きさを選択する | `medium` |
 | width | 横幅を指定する | `auto` |
 | textSize | 縦幅を指定する | `auto` |
+| layout | コンテンツを縦並びか横並びにするか選択する (`horizontal` / `vertical`) | `vertical` |
 
 
 ## Spacer
@@ -301,3 +306,34 @@ Layout の中で使用します。
 ### Props
 - なし
 
+## Code
+```tsx
+import { Theme, Layout, Spacer, Title } from 'react-speaker-board'
+
+const shell = `$ pnpm add react-speaker-board`;
+
+const slide = () => {
+  return (
+    <Theme themeColor="dark" textColor="white">
+      <Layout layout="subject">
+        <Code textSize="20px" width="100%">
+          {shell}
+        </Code>
+      </Layout>
+    </Theme>
+  )
+}
+```
+
+コードの挿入が出来ます。
+
+### Props
+
+| Name | Description | Default |
+|----|----|----|
+| children | コードで表現する文字列を入れる | - |
+| lang | シンタックス元の言語を指定する(`js`, `ruby` など) | `text` |
+| textSize | 文字の大きさを指定する | `16px` |
+| width | 横幅を指定する | `auto` |
+| height | 高さを指定する | `auto` |
+| padding | 内側の余白を指定する | `10px` |
