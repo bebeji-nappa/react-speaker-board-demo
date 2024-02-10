@@ -8,7 +8,7 @@ const DocsMenu = () => {
         React Speaker Board
       </Link>
       <pre style={{ backgroundColor: "#dddddd", fontSize: "14px", padding: "5px" }}>
-        <code>v0.3.2</code>
+        <code>v0.4.0</code>
       </pre>
       <ul>
         <li>
