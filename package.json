@@ -15,7 +15,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-speaker-board": "^0.4.1",
-    "richmd": "^2.2.11"
+    "richmd": "^2.2.12"
   },
   "devDependencies": {
     "@types/node": "^20",

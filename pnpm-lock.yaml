@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.4.1
     version: 0.4.1
   richmd:
-    specifier: ^2.2.11
-    version: 2.2.11
+    specifier: ^2.2.12
+    version: 2.2.12
 
 devDependencies:
   '@types/node':
@@ -2579,11 +2579,11 @@ packages:
       highlight.js: 11.9.0
       katex: 0.13.24
       mkdirp: 1.0.4
-      richmd: 2.2.11
+      richmd: 2.2.12
     dev: false
 
-  /richmd@2.2.11:
-    resolution: {integrity: sha512-/7tQD+ecibzv2yp5Vd7jN+9lg4zpdd2WmSEAiEZpIptaR5QvCwvWfjaLlRS5BSZShff9gLE3bfSn+G0fRD8eQQ==}
+  /richmd@2.2.12:
+    resolution: {integrity: sha512-xIWuinm2uc1myzJ40RJZLyoAu5bFTKkUIupYxTqnfXaWKbyHeEiUucCVPnrmM6+EH9gZiGLJ9KWLrmKCOMbvCw==}
     hasBin: true
     dependencies:
       commander: 11.1.0
