@@ -15,7 +15,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-speaker-board": "^0.4.1",
-    "richmd": "^2.2.9"
+    "richmd": "^2.2.10"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -24,6 +24,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.8.0",
     "raw-loader": "^4.0.2",
     "typescript": "^5"
   },
