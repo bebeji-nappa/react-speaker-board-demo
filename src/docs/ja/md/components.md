@@ -6,7 +6,7 @@
 import { ReactSpeakerBoard } from 'react-speaker-board'
 
 export default function Home () {
-  return <ReactSpeakerBoard slide={Slide} mode="slide" />
+  return <ReactSpeakerBoard slide={Slide} mode="fullScreen" />
 };
 ```
 
@@ -25,11 +25,10 @@ export default function Home () {
 
 | Name | Description | Default |
 |----|----|----|
-| mode | スライドボードの表示モードを選択する(`slide` / `inlineSlide`) | `slide` |
+| mode | スライドボードの表示モードを選択する(`fullScreen` / `inlineSlide`/ `fullScreenScroll`) | `fullScreen` |
 | slide(必須) | スライドボードのコンポーネントを指定する | - |
 | controlArrowColor | スライドボード操作ボタンの色を指定する(16進数指定が可能) | `#71a3e3` |
 | controlBgColor | スライドボード操作バーの背景色を選択する(`none` / `light` / `dark`) | `none` |
-| controlBar | スライドボード操作モードを選択する(`all` / `arrow` / `keyboard`) | `all` |
 | width | スライドボードの横幅を指定する(inlineSlide モード時のみ指定可能) | `100vw` |
 | height | スライドボードの縦幅を指定する(inlineSlide モード時のみ指定可能) | `100vh` |
 

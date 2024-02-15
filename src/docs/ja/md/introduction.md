@@ -58,7 +58,7 @@ import { ReactSpeakerBoard } from 'react-speaker-board'
 import { Slide } from './slide'
 
 export default function Home () {
-  return <ReactSpeakerBoard slide={Slide} mode="slide" />
+  return <ReactSpeakerBoard slide={Slide} mode="fullScreen" />
 };
 ```
 
