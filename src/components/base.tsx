@@ -1,7 +1,6 @@
 import React from "react";
 import DocsMenu from './menu'
 import DocsPage from './page'
-import "richmd/richmd.css";
 
 const DocsBase: React.FC<DocsBase> = ({ mdData }) => {
   return (
